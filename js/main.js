@@ -20,7 +20,7 @@
  
   // Navigation active state on scroll
   var nav_sections = $('section');
-  var main_nav = $('.main-nav, .mobile-nav');
+  var main_nav = $('.sidenav, .mobile-nav');
   var main_nav_height = $('#header').outerHeight();
 
   $(window).on('scroll', function () {
@@ -36,7 +36,6 @@
       }
     });
   });
-  //Scroll to top
 $(window).scroll(function() {
     var height = $(window).scrollTop();
     if (height > 100) {
@@ -52,13 +51,29 @@ $(document).ready(function() {
         return false;
     });
 
-=======
 
 });
 
 });
 
 
+  
+(jQuery);
 
-})(jQuery);
+ /* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
 
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+$("#threedash").click(function(){
+  $("#threedash").hide();
+});
+
+$(".closebtn").click(function(){
+  $("#threedash").show();
+});

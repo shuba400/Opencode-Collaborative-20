@@ -1,4 +1,4 @@
-
+ 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -177,25 +177,24 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
+.sidenav {
+  right: 0;
 }
 
-.main-nav,
-.main-nav * {
+.sidenav,
+.sidenav * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.main-nav > ul > li {
+.sidenav > ul > li {
   position: relative;
   white-space: nowrap;
   float: left;
 }
 
-.main-nav a {
+.sidenav a {
   display: block;
   position: relative;
   color: #413e66;
@@ -207,14 +206,14 @@ h6 {
   font-weight: 600;
 }
 
-.main-nav a:hover,
-.main-nav .active > a,
-.main-nav li:hover > a {
+.sidenav a:hover,
+.sidenav .active > a,
+.sidenav li:hover > a {
   color: #1bb1dc;
   text-decoration: none;
 }
 
-.main-nav .drop-down ul {
+.sidenav .drop-down ul {
   display: block;
   position: absolute;
   left: 0;
@@ -228,18 +227,18 @@ h6 {
   transition: ease all 0.3s;
 }
 
-.main-nav .drop-down:hover > ul {
+.sidenav .drop-down:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
 }
 
-.main-nav .drop-down li {
+.sidenav .drop-down li {
   min-width: 180px;
   position: relative;
 }
 
-.main-nav .drop-down ul a {
+.sidenav .drop-down ul a {
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 500;
@@ -247,34 +246,34 @@ h6 {
   color: #065e77;
 }
 
-.main-nav .drop-down ul a:hover,
-.main-nav .drop-down ul .active > a,
-.main-nav .drop-down ul li:hover > a {
+.sidenav .drop-down ul a:hover,
+.sidenav .drop-down ul .active > a,
+.sidenav .drop-down ul li:hover > a {
   color: #1bb1dc;
 }
 
-.main-nav .drop-down > a:after {
+.sidenav .drop-down > a:after {
   content: "\f107";
   font-family: FontAwesome;
   padding-left: 10px;
 }
 
-.main-nav .drop-down .drop-down ul {
+.sidenav .drop-down .drop-down ul {
   top: 0;
   left: calc(100% - 30px);
 }
 
-.main-nav .drop-down .drop-down:hover > ul {
+.sidenav .drop-down .drop-down:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
 }
 
-.main-nav .drop-down .drop-down > a {
+.sidenav .drop-down .drop-down > a {
   padding-right: 35px;
 }
 
-.main-nav .drop-down .drop-down > a:after {
+.sidenav .drop-down .drop-down > a:after {
   content: "\f105";
   position: absolute;
   right: 15px;
@@ -497,6 +496,141 @@ h6 {
   transition: .5s;
 }
 
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: rgba(40, 38, 70, 0.8); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav  */
+
+@media only screen and (max-width: 1026px) { 
+  .navbutton { 
+    display: none; 
+  } 
+}
+
+#threedash{
+  color: #1316eb;
+  size: 24px;
+  font-weight: 400;
+}
+
+#about {
+  padding: 80px 0;
+}
+
+#about .about-content {
+  padding-top: 40px;
+}
+
+#about .about-content h2 {
+  color: #413e66;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#about .about-content h3 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#about .about-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about .about-content ul li {
+  padding-bottom: 10px;
+}
+
+#about .about-content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1bb1dc;
+}
+
+#about .about-img {
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+#about .about-img img {
+  width: 100%;
+  border: 8px solid #fff;
+  transition: .5s;
+}
+
+#about .about-img img:hover {
+  width: 100%;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+#about .about-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #ebf1fa;
+  transition: .5s;
+}
+
+#about .about-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #ebf1fa;
+  transition: .5s;
+}
+
 #projects {
   color: #413e66;
   font-family: "Montserrat", sans-serif;
@@ -607,5 +741,5 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
   position: relative;
   transition: 0.8s;
 }
-=======
+
 
