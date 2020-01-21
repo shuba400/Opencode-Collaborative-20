@@ -546,10 +546,10 @@ h6 {
   .navbutton { 
     display: none; 
   } 
- 
- #crossonbigscreen{
+  #crossonbigscreen{
     display: none; 
   }
+
 }
 
 #threedash{
