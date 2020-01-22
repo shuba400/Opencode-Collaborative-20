@@ -77,3 +77,9 @@ $("#threedash").click(function(){
 $(".closebtn").click(function(){
   $("#threedash").show();
 });
+
+ $(document).on('click', '.sidenav .drop-down > a', function(e) {
+      e.preventDefault();
+      $(this).next().slideToggle(300);
+      $(this).parent().toggleClass('active');
+    });
