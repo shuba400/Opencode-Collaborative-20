@@ -592,6 +592,7 @@ h6 {
   content: '';
   background-color: #ebf1fa;
   transition: .5s;
+}
 
 #footer{
 	width: 100%;
@@ -706,7 +707,7 @@ h6 {
 }
 
 .ch{
-  marign-left: 40px;
+  margin-left: 40px;
   float: left;
 
 }

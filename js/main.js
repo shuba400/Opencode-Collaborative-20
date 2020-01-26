@@ -52,8 +52,10 @@ $(document).ready(function() {
     });
 
 
+});
 
 });
+
 
   
 (jQuery);
@@ -71,9 +73,6 @@ function closeNav() {
 $("#threedash").click(function(){
   $("#threedash").hide();
 });
-=======
-})(jQuery);
-
 
 $(".closebtn").click(function(){
   $("#threedash").show();
