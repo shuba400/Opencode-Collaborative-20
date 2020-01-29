@@ -86,6 +86,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background-color: white !important;
 }
 
 #header.header-scrolled,
@@ -126,7 +127,16 @@ h6 {
 .main-pages {
   margin-top: 60px;
 }
-
+/*--------------------------------------------------------------
+# Landing Section
+--------------------------------------------------------------*/
+#landing {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #f5f8fd url("../img/bg.png") center top no-repeat;
+  background-size: cover;
+}
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -180,6 +190,9 @@ h6 {
 .sidenav {
   right: 0;
 }
+#upper{
+background-color: white !important;
+}
 
 .sidenav,
 .sidenav * {
@@ -192,6 +205,7 @@ h6 {
   position: relative;
   white-space: nowrap;
   float: left;
+
 }
 
 .sidenav a {
@@ -451,7 +465,7 @@ h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa ;
+  background-color: #ebf1fa;
   transition: .5s;
 }
 
@@ -619,17 +633,18 @@ h6 {
 
 }
 
+
 #projects {
   color: #413e66;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  margin-left: 380px;
+  text-align: center;
 }
 
 .proj_name{
   color: #413e66;
   font-family: "Montserrat", sans-serif;
-  font-size: 32.5px;
+  font-size: 22.5px;
   font-weight: 400;
   margin: 30px; 
 }
@@ -647,9 +662,10 @@ h6 {
     border-radius: 8px;
     border: none;
     color: white;
-  padding: 15px 32px;
+  padding: 5px 12px;
     text-align: center;
     text-decoration: none;
+    float:left;
     display: inline-block;
     font-size: 20px;
     margin: 25px;
@@ -712,13 +728,14 @@ h6 {
 
 }
 .probox{
-  margin-left: 7%;
-  margin-bottom: 20px;
+  margin-left: 12%;
+  margin-bottom: 60px;
   margin-top: 5px;
   opacity: 1;
   border-radius: 20%;
   transition: display 1s linear;
-  float:left;background: #00C9FF;  /* fallback for old browsers */
+  float:left;
+  background: #00C9FF;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -732,10 +749,35 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
 
 
 
+#participants{
+  color: #413e66;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100px;
+}
 
+.proimg{
+  margin: 10%;
+  border-radius: 40px;
+}
 
+.tiles{
+  width: 45%;
+  float: left;
+  margin-top: 30px;
+  margin-right:0;
+  border-radius: 20%;
 
-
-
-
-
+}
+.lin{
+   background-color: #413e66;
+    border-radius: 8px;
+    border: none;
+    color: white;
+  padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    float:left;
+    display: inline-block;
+    font-size: 10px;
+    margin: 1%;
+}
