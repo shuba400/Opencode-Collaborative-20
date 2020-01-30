@@ -1,6 +1,15 @@
-
-
-data = [  {
+data = [
+		{
+			"name": "Anjali Chaturvedi",
+			"imageurl": "",
+			"about": "",
+			"college": "IIIT Allahabad",
+			"facebook": "",
+			"github": "https://github.com/Tarini-Anjali",
+			"website": "",
+			"twitter": "",
+			"referral": ""
+		},  {
     "name": "Prathamesh Kakde",
     "imageurl": "https://avatars3.githubusercontent.com/u/58396450?s=460&v=4",
     "about": "it's Never Better to Know ME",
@@ -14,12 +23,25 @@ data = [  {
       "name": "Rishabh",
         "imageurl": "https://instagram.flko3-1.fna.fbcdn.net/v/t51.2885-19/s150x150/71528362_1085952818274341_4229189828912087040_n.jpg?_nc_ht=instagram.flko3-1.fna.fbcdn.net&_nc_ohc=9OVcArOiX_0AX8Byfsy&oh=ba20beb5b9b40935fbdc9710b9ff869f&oe=5EBE7806",
         "about": "Trying out Stuff",
+
         "college": "IIIT Allahabad",
         "facebook": "https://www.facebook.com/profile.php?id=100016897592697",
         "github": "https://github.com/maniacric",
         "twitter": "",
         "referral": ""
     },
+
+    {
+        "name": "Himanshu Vishwakarma",
+        "imageurl": "https://avatars2.githubusercontent.com/u/54054289?s=400&v=4",
+        "about": "Hello, I am a learner !!",
+        "college": "IIIT Allahabad",
+        "facebook": "https://www.facebook.com/himanshu.vishwakarma.7524879",
+        "github": "https://github.com/stygian-96",
+        "twitter": "https://twitter.com/Himansh84968338",
+        "referral": "Seniors"
+    },
+
 
   {
     "name": "Shivam Agrahari",
@@ -1768,8 +1790,83 @@ data = [  {
     "twitter": "",
     "referral": "Friends"
   },
+  {
+    "name": "Aastha Kasera",
+    "imageurl": "https://drive.google.com/file/d/1qExU3xa5z_furrMHKGBqsjIf-lh22UvH/view?usp=sharing",
+    "about": "Noob :)",
+    "college": "IIIT Allahabad",
+    "facebook": "",
+    "github": "https://github.com/littleprodigy",
+    "twitter": "",
+    "referral": "OpenCode'19"
+  }
+
+{
+	"name": "Daniel Dey",
+	"imageurl": "https://images.app.goo.gl/ofkYjCru7PYKbEGEA",
+	"about": "Hey everyone",
+	"college": "IIIT Allahabad",
+	"facebook": "",
+	"github": "https://github.com/deydaniel",
+	"twitter": "",
+	"referral": "seniors"
+},{
+
+       "name" : "Hemant Kumar",
+       "imageurl" : "https://avatars0.githubusercontent.com/u/15969042?s=460&v=4",
+       "about" : "Hi , i am here to just learn git and something new",
+       "college" : "IIIT Allahabad",
+       "facebook" : "https://www.facebook.com/profile.php?id=100027608000537",
+       "github" : "https://github.com/hkbiet",
+       "twitter" : "",
+       "referral" : " Friends"
+    },
 
 
+    {"name" : "Harsh Thete",
+       "imageurl" : "https://avatars3.githubusercontent.com/u/58657856?s=460&v=4",
+       "about" : "I am using github",
+       "college" : "IIIT Allahabad",
+       "facebook" : "https://www.facebook.com/profile.php?id=100009165360037",
+       "github" : "https://github.com/harshthete001",
+       "twitter" : "",
+       "referral" : ""
+    },
+
+  
+
+	{
+		"name" : "Sunidhi Kashyap",
+		"imageurl" : "",
+		"about" : "",
+        "college" : "IIIT Allahabad",
+		"facebook" : "",
+        "github" : "https://github.com/sunidhi-kashyap",
+		"twitter" : "",
+        "referral" : "Friends"
+	
+	}
+,{
+
+       "name" : "Riya Jawandhiya",
+       "imageurl" : "",
+       "about" : "Hello I'm a web developer",
+       "college" : "Medicaps University",
+       "facebook" : "url",
+       "github" : "url",
+       "twitter" : "url",
+       "referral" : "friends"
+    },
+ {      
+	"name" : "Sakshi Gupta",
+       "imageurl" : "https://cdn.vox-cdn.com/thumbor/FZ8ZW5D_fPF5GZ6gHz9mpula4eY=/0x0:1920x1080/1200x800/filters:focal(807x387:1113x693)/cdn.vox-cdn.com/uploads/chorus_image/image/53851595/death_note.0.jpg",
+       "about" : "",
+       "college" : "IIIT allahabad",
+       "facebook" : "url",
+       "github" : "url",
+       "twitter" : "url",
+       "referral" : "friends
+    },
 
 
 ]
